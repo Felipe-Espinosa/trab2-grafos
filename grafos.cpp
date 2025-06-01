@@ -1,5 +1,6 @@
+//README com as informações do trabalho
 // FELIPE HENRIQUE ESPINOSA - 2133357
-// RAFAEL BOMBONATTO FERREIRA - 
+// RAFAEL BOMBONATTO FERREIRA - 2153287
 // MATEUS Z. F. PADILHA - 1984044 
 
 #include <iostream>
@@ -124,7 +125,7 @@ void imprimirListaAdjacenciaPonderada(const string& nomeGrafo, const map<string,
     }
 }
 
-// BFS em G1 a partir de "b", ordem lexicográfica
+// BFS em G1 a partir de "b", ordem lexicografica
 void bfsLex(const map<string, vector<string>>& grafo, const string& inicio) {
     set<string> visitado;
     queue<string> fila;
@@ -164,7 +165,7 @@ void dfsLex(const map<string, vector<string>>& grafo, const string& atual, set<s
     }
 }
 
-// Dijkstra em G3 de x até t
+// dijkstra em G3 de x ate t
 void dijkstra(const map<string, vector<ArestaPonderada>>& grafo, const string& origem, const string& destino) {
     map<string, int> dist;
     map<string, string> prev;
